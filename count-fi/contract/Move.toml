@@ -1,0 +1,23 @@
+[package]
+name = "aptos-count"
+version = "1.0.0"
+authors = []
+
+[addresses]
+aptos_count = "0x5ed4664ecfac74f55a37fb7d1122eee8925d93216076cdf0ca9a0e53f495a0eb"
+#aptos_count = "_"
+
+[dev-addresses]
+#aptos_count = "0xd0b18be81b732b64edaf62b54ad1a5aab1bbe37cb2370d5b7c06042ca55d9e0b"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-token-objects"
+
+[dev-dependencies]
