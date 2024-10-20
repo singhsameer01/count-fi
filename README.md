@@ -27,5 +27,20 @@ To get started with CountFI, ensure you have the following installed:
 
 You can deploy the smart contracts on the Aptos blockchain and interact with them using the appropriate commands.
 
+##Deploy the Smart Contract
+To deploy the smart contract:
+
+Install Aptos CLI.
+
+Update the Move.toml file with your wallet address:
+
+-aptos init
+-Add your Account addr here for Deployment
+-aptos_count = "0x5ed4664ecfac74f55a37fb7d1122eee8925d93216076cdf0ca9a0e53f495a0eb"
+-Compile and publish the contract:
+
+-aptos move compile
+-aptos move publish
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
